@@ -1,0 +1,27 @@
+r
+:host {
+    display: block;
+}
+
+.stars-container {
+    margin-bottom: 10px;
+}
+
+.stars-container span {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+form {
+    display: none; 
+}
+
+:host {
+    --selected-color: gold;
+    --unselected-color: gray;
+}
+
+.stars-container span {
+    color: var(--unselected-color);
+}
